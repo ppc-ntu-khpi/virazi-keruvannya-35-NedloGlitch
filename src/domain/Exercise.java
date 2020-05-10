@@ -1,8 +1,8 @@
 package domain;
-
+/** This class calculates number of lucky tickets up till given number */
 public class Exercise {
     public static String Calculate(String input){
-        /** "con" - string converted to integer */
+        /** Because we need integer to calculate number of lucky tickets, we convert string to int "con" */
         int con;
         try { /** String to int conversion happens here */
             con = Integer.parseInt(input.trim());
